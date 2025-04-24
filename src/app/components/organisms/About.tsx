@@ -2,7 +2,7 @@ export default function About() {
     return (
       <section id="about" className="w-full bg-[#d2e7f5] pt-16 pb-0">
         <div className="max-w-6xl mx-auto px-6">
-          <p className="text-2xl text-gray-800 font-bold">Kisah</p>
+          <p className="text-2xl text-gray-800 font-bold">KISAH</p>
           <h2 className="text-xl font-bold text-gray-800 mt-2 mb-6">
             Ini Kisah Kami
           </h2>

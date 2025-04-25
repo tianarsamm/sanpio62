@@ -7,17 +7,17 @@ const features = [
 
     title: "Sejarah",
     description: "Sejarah Singkat Sanpio 62",
-    href: "/sejarah", // Tambahkan path untuk halaman biodata
+    href: "/sejarah", 
   },
   {
     title: "Awal Mula",
     description: "Awal Mula Sanpio 62",
-    href: "/awalmula", // Tambahkan path untuk halaman skills
+    href: "/awalmula", 
   },
   {
     title: "Makna SPARTA",
     description: "Makna SPARTA bagi Sanpio 62",
-    href: "/artisparta", // Tambahkan path untuk halaman interest
+    href: "/artisparta", 
   },
 ];
 

@@ -142,7 +142,7 @@ export default function Gallery() {
           Kenangan yang Tak Terlupakan
         </h2>
 
-        {/* Navigation Buttons */}
+        
         <div className="absolute top-1/2 -translate-y-1/2 left-4 z-10">
           <button 
             onClick={() => scroll('left')}
@@ -160,7 +160,7 @@ export default function Gallery() {
           </button>
         </div>
 
-        {/* Scrollable Gallery Container */}
+        
         <div 
           ref={scrollContainerRef}
           className="flex overflow-x-auto scrollbar-hide gap-6 pb-4 snap-x snap-mandatory"
@@ -190,7 +190,6 @@ export default function Gallery() {
           ))}
         </div>
 
-        {/* Lightbox Modal with Close Button */}
         {selectedImage && (
           <div
             className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4"

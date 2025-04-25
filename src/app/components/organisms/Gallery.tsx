@@ -193,16 +193,17 @@ export default function Gallery() {
         {/* Lightbox Modal with Close Button */}
         {selectedImage && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50"
+            className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4"
             onClick={() => setSelectedImage(null)}
           >
-            <div className="relative">
+            <div className="relative max-w-full max-h-full">
               <Image
                 src={selectedImage}
                 alt="Preview"
                 width={1024}
                 height={768}
-                className="max-w-3xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+                className="w-auto h-auto max-w-full max-h-[85vh] object-contain rounded-lg"
+                priority
               />
               <button
                 onClick={(e) => {

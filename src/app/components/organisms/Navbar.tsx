@@ -67,7 +67,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden px-6 pb-4 space-y-3 text-[#d2e7f5] font-semibold">
+        <div className="md:hidden px-6 pb-4 space-y-3 text-white font-semibold">
           <Link 
             href="#about" 
             className="block hover:text-green-500"

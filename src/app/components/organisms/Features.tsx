@@ -1,26 +1,23 @@
 // components/Features.tsx
 
 import { ArrowRight } from "lucide-react";
-import Image from "next/image";
 
 const features = [
   {
-    icon: "/icons/Activity.png",
-    title: "Biodata",
-    description: "This is My Biodata",
-    href: "/biodata", // Tambahkan path untuk halaman biodata
+
+    title: "Sejarah",
+    description: "Sejarah Singkat Sanpio 62",
+    href: "/sejarah", // Tambahkan path untuk halaman biodata
   },
   {
-    icon: "/icons/Heart.png",
-    title: "Skills",
-    description: "This is My Skills",
-    href: "/skills", // Tambahkan path untuk halaman skills
+    title: "Awal Mula",
+    description: "Awal Mula Sanpio 62",
+    href: "/awalmula", // Tambahkan path untuk halaman skills
   },
   {
-    icon: "/icons/Work.png",
-    title: "Interest",
-    description: "This is My Interest",
-    href: "/interest", // Tambahkan path untuk halaman interest
+    title: "Makna SPARTA",
+    description: "Makna SPARTA bagi Sanpio 62",
+    href: "/artisparta", // Tambahkan path untuk halaman interest
   },
 ];
 
@@ -28,31 +25,23 @@ export default function Features() {
   return (
     <section id="about" className="w-full bg-[#d2e7f5] py-16 mt-2">
       <div className="max-w-6xl mx-auto px-6 text-start mb-16">
-        <p className="text-2xl text-[#dc5341] font-semibold">ABOUT</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-          Let&apos;s get acquainted
+        <p className="text-2xl text-gray-800 font-bold">KISAH</p>
+        <h2 className="text-xl font-bold text-gray-800 mt-2 mb-6">
+            Ini Kisah Kami
         </h2>
       </div>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center px-6">
         {features.map((feature, index) => (
-          <div key={index} className="space-y-4">
-            <div className="inline-block p-5 bg-white rounded-2xl">
-              <Image
-                src={feature.icon}
-                alt={feature.title}
-                width={40}
-                height={40}
-                className="w-10 h-10 mx-auto object-contain"
-              />
-            </div>
+          <div key={index} className="space-y-2 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            
             <h3 className="text-lg font-semibold text-gray-900">{feature.title}</h3>
             <p className="text-gray-600 text-sm">{feature.description}</p>
             <a
               href={feature.href}
-              className="inline-flex items-center gap-2 text-sm font-medium text-black hover:text-[#dc5341] transition-colors"
+              className="inline-flex items-center gap-2 text-sm font-medium text-black hover:text-red-500 transition-colors"
             >
-              Read More <ArrowRight size={16} />
+              Read More<ArrowRight size={16} />
             </a>
           </div>
         ))}

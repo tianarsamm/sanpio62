@@ -34,6 +34,26 @@ export default function Gallery() {
   const galleryItems = [
     {
       title: "",
+      image: "/fotosparta/e.jpg",
+    },
+    {
+      title: "",
+      image: "/fotosparta/a.jpg",
+    },
+    {
+      title: "",
+      image: "/fotosparta/b.jpg",
+    },
+    {
+      title: "",
+      image: "/fotosparta/c.jpg",
+    },
+    {
+      title: "",
+      image: "/fotosparta/d.jpg",
+    },
+    {
+      title: "",
       image: "/fotosparta/1.svg",
     },
     {

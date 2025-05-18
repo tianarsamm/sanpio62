@@ -47,7 +47,7 @@ export default function MessageBox() {
   };
 
   return (
-    <div className="max-w-xl mx-auto my-10 p-6 bg-white rounded-xl shadow-md">
+    <div id="pesan" className="scroll-mt-20 max-w-xl mx-auto my-10 p-6 bg-white rounded-xl shadow-md">
       <h3 className="text-xl font-bold mb-4 text-[#1e2939]">Kirim Pesan untuk SPARTA</h3>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input

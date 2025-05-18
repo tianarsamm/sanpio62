@@ -3,7 +3,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-[#335770] text-[#d2e7f5] py-16 px-6">
+    <footer id="contact" className="scroll-mt-20 bg-[#335770] text-[#d2e7f5] py-16 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
         <div className="text-2xl font-bold text-white">

@@ -45,6 +45,13 @@ const Navbar = () => {
             Galeri
           </Link>
           <Link 
+            href="#pesan" 
+            className="hover:text-white transition"
+            onClick={(e) => scrollToSection(e, 'pesan')}
+          >
+            Pesan
+          </Link>
+          <Link 
             href="#contact" 
             className="hover:text-white transition"
             onClick={(e) => scrollToSection(e, 'contact')}

@@ -23,7 +23,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="about" className="w-full bg-[#d2e7f5] py-16 mt-2">
+    <section id="about" className="scroll-mt-20 w-full bg-[#d2e7f5] py-16 mt-2">
       <div className="max-w-6xl mx-auto px-6 text-start mb-16">
         <p className="text-2xl text-gray-800 font-bold">KISAH</p>
         <h2 className="text-xl font-bold text-gray-800 mt-2 mb-6">

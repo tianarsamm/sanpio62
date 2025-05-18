@@ -155,7 +155,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-16 bg-[#d2e7f5] relative">
+    <section id="gallery" className="scroll-mt-20 py-16 bg-[#d2e7f5] relative">
       <div className="max-w-6xl mx-auto px-6">
         <p className="text-gray-800 font-bold text-2xl mb-2">GALERI</p>
         <h2 className="text-xl font-bold text-gray-800 mt-2 mb-6">
